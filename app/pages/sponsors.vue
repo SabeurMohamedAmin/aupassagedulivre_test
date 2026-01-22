@@ -135,18 +135,16 @@ const sponsors = ref<Sponsor[]>([
             :class="{ 'border-black elevation-0': isHovering }"
             :style="`border-color: ${isHovering ? sponsor.color : '#e0e0e0'} !important; transition: all 0.2s ease-out;`"
           >
-            <!-- Image Area with Grayscale Effect -->
-            <div class="position-relative" style="height: 200px; overflow: hidden;">
+            <!-- Image Area (mobile-safe) -->
+            <div class="position-relative overflow-hidden" style="height: 200px;">
               <v-img
-                :class="isHovering?'grayscale-0 scale-104':'grayscale-100'"
-                class="transition-all image-sponsor"
                 :src="sponsor.logoUrl"
-                height="100%"
-                width="100%"
-                aspect-ratio="1/6"
+                class="transition-all image-sponsor"
+                :class="isHovering ? 'grayscale-0 scale-104' : 'grayscale-100'"
                 cover
+                height="200"
               >
-                <!-- Modern 'Glass' Category Tag -->
+                <!-- Glass Category Tag -->
                 <div class="d-flex justify-end pa-4">
                   <v-chip
                     rounded="0"
@@ -161,7 +159,6 @@ const sponsors = ref<Sponsor[]>([
                 </div>
               </v-img>
             </div>
-
             <!-- Content Area -->
             <v-card-item class="pt-5 pb-2">
               <v-card-title class="text-h6 font-weight-bold text-uppercase mb-1">

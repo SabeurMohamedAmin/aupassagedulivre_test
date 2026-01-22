@@ -55,7 +55,7 @@
                 cover 
                 class="transition-transform duration-500"
                 :class="{'scale-110': isHovering}"
-              ></v-img>
+              />
               
               <!-- Social Icons Overlay -->
               <v-expand-transition>
