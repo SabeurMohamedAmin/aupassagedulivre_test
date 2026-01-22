@@ -137,9 +137,9 @@ const sponsors = ref<Sponsor[]>([
           >
             <!-- Image Area (mobile-safe) -->
             <div class="position-relative overflow-hidden" style="height: 200px;">
-              <v-img
+              <nuxt-img
                 :src="sponsor.logoUrl"
-                class="transition-all image-sponsor"
+                class="transition-all image-sponsor w-100"
                 :class="isHovering ? 'grayscale-0 scale-104' : 'grayscale-100'"
                 cover
                 height="200"
@@ -157,7 +157,7 @@ const sponsors = ref<Sponsor[]>([
                     {{ sponsor.category }}
                   </v-chip>
                 </div>
-              </v-img>
+              </nuxt-img>
             </div>
             <!-- Content Area -->
             <v-card-item class="pt-5 pb-2">
