@@ -25,7 +25,7 @@ const sponsors = ref<Sponsor[]>([
     website:"https://www.foireurop.com",
     description: 'Parc Expo Strasbourg',
     address: ' 6 Rue de Soultzmatt, Strasbourg',
-    logoUrl: './img/logos/sponsors/foire.png',
+    logoUrl: '/img/logos/sponsors/foire.png',
     color: '#455A64' // Blue Grey
   },
   {
@@ -35,7 +35,7 @@ const sponsors = ref<Sponsor[]>([
     website: "https://www.chalot.fr/",
     description: 'France Location & Logistique',
     address: "7 Rue du Bass. de l'Industrie, Strasbourg",
-    logoUrl: './img/logos/sponsors/chalot.png',
+    logoUrl: '/img/logos/sponsors/chalot.png',
     color: '#C62828' // Red
   },
   {
@@ -45,7 +45,7 @@ const sponsors = ref<Sponsor[]>([
     website:"https://www.immom.fr",
     description: 'Agence Immobilière FNAIM',
     address: ' 6 Rue de Soultzmatt, Strasbourg',
-    logoUrl: './img/logos/sponsors/immo-m.png',
+    logoUrl: '/img/logos/sponsors/immo-m.png',
     color: '#EF6C00' // Orange
   },
   {
@@ -55,7 +55,7 @@ const sponsors = ref<Sponsor[]>([
     description: 'Cuisine Traditionnelle Alsacienne',
     website: 'https://muensterstuewel.fr',
     address: '8 Pl. du Marché-aux-Cochons-de-Lait, Strasbourg',
-    logoUrl: './img/logos/sponsors/muensterstuewel.png',
+    logoUrl: '/img/logos/sponsors/muensterstuewel.png',
     color: '#5D4037' // Brown
   },
   {
@@ -65,7 +65,7 @@ const sponsors = ref<Sponsor[]>([
     website:"https://www.hotel-cathedrale.fr",
     description: 'Chambre avec vue',
     address: '12- 13 Pl. de la Cathédrale, Strasbourg',
-    logoUrl: './img/logos/sponsors/hotel-cathedrale.png',
+    logoUrl: '/img/logos/sponsors/hotel-cathedrale.png',
     color: '#6A1B9A' // Purple
   },
   {
@@ -75,7 +75,7 @@ const sponsors = ref<Sponsor[]>([
     website:"https://www.geant-beaux-arts.fr/",
     description: 'Sonorisation Grand Est',
     address: "91 route des Romains, Strasbourg",
-    logoUrl: './img/logos/sponsors/geant-des-beaux-arts.png',
+    logoUrl: '/img/logos/sponsors/geant-des-beaux-arts.png',
     color: '#283593' // Indigo
   },
   {
@@ -85,7 +85,7 @@ const sponsors = ref<Sponsor[]>([
     website:"https://www.reck.fr",
     description: 'Torréfacteur depuis 1884',
     address: '8 Rue de la Mésange, Strasbourg',
-    logoUrl: './img/logos/sponsors/cafe-reck.png',
+    logoUrl: '/img/logos/sponsors/cafe-reck.png',
     color: '#3E2723' // Coffee
   },
   {
@@ -95,7 +95,7 @@ const sponsors = ref<Sponsor[]>([
     description: 'Propreté & Services',
     website: "https://www.sonetmo.fr",
     address: '8 Rue Ettore Bugatti, Eckbolsheim',
-    logoUrl: './img/logos/sponsors/sonetmo.png', // Example real URL structure
+    logoUrl: '/img/logos/sponsors/sonetmo.png', // Example real URL structure
     color: '#1565C0' // Blue
   }
 ])
